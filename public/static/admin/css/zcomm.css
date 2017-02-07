@@ -1,0 +1,37 @@
+
+.z-content{
+    padding: 20px;
+}
+
+.margin-l10{
+    margin-left: 10px;
+}
+
+.margin-b10{
+    margin-bottom: 10px;
+}
+
+.h-50{
+    height: 50px;
+}
+
+.form-bg{
+    background-color: #eff3f8;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+.page1{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.sy{
+    color:red;
+}
+
+.zclear{
+    overflow: hidden;
+}
