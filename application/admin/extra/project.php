@@ -28,7 +28,7 @@ return [
             "manage_control" => array(
                 "control_name" => "加班/调休管理",
                 "control_status" => "",
-                "control_icon" => "user",
+                "control_icon" => "calendar",
                 "control_link" => "Manage/show",
                 "control_sub" => array(
                     "manage_show" => array(
@@ -45,9 +45,54 @@ return [
             ),
             "statistics_control" => array(
                 "control_name" => "加班统计",
-                "control_icon" => "gift",
+                "control_icon" => "dashboard",
                 "control_link" => "Statistics/index",
                 "control_status" => "",
+            ),
+
+            "rule_control" => array(
+                "control_name" => "加班调休制度",
+                "control_icon" => "tag",
+                "control_link" => "Rule/index",
+                "control_status" => "",
+            ),
+            "flow_control" => array(
+                "control_name" => "项目管理流程",
+                "control_status" => "",
+                "control_icon" => "tasks",
+                "control_link" => "Flow/flowControl",
+                "control_sub" => array(
+                    "flow_control" => array(
+                        "sub_name" => "版本控制流程",
+                        "sub_link" => "Flow/flowControl",
+                        "sub_status" => "",
+                    ),
+                    "flow_chan" => array(
+                        "sub_name" => "禅道项目管理流程全图",
+                        "sub_link" => "Flow/chanDao",
+                        "sub_status" => "",
+                    ),
+                    "flow_product" => array(
+                        "sub_name" => "产品组核心工作流程",
+                        "sub_link" => "Flow/productGroup",
+                        "sub_status" => "",
+                    ),
+                    "flow_project" => array(
+                        "sub_name" => "项目流程图",
+                        "sub_link" => "Flow/projectFlow",
+                        "sub_status" => "",
+                    ),
+                    "flow_implement" => array(
+                        "sub_name" => "项目实施具体工作",
+                        "sub_link" => "Flow/implement",
+                        "sub_status" => "",
+                    ),
+                    "flow_demand" => array(
+                        "sub_name" => "需求变更流程图",
+                        "sub_link" => "Flow/demand",
+                        "sub_status" => "",
+                    ),
+                )
             ),
         ),
 
